@@ -1,0 +1,5 @@
+C:\Users\Arthur\Desktop\TDIN\Store\Employee\obj\Debug\Employee.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\TDIN\Store\Employee\bin\Debug\Employee.dll
+C:\Users\Arthur\Desktop\TDIN\Store\Employee\bin\Debug\Employee.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\Employee\obj\Debug\Employee.dll
+C:\Users\Arthur\Desktop\TDIN\Store\Employee\obj\Debug\Employee.pdb

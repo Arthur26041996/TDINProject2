@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\bin\Debug\StoreServer.exe.config
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\bin\Debug\StoreServer.exe
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\bin\Debug\StoreServer.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\obj\Debug\StoreServer.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\obj\Debug\StoreServer.exe
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\obj\Debug\StoreServer.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\bin\Debug\Shared.dll
+C:\Users\Arthur\Desktop\TDIN\Store\StoreServer\bin\Debug\Shared.pdb

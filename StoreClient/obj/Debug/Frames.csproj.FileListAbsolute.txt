@@ -1,0 +1,13 @@
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\Frames.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\MainFrame.Properties.Resources.resources
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\Frames.csproj.GenerateResource.Cache
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\bin\Debug\MainFrame.exe.config
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\bin\Debug\MainFrame.exe
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\bin\Debug\MainFrame.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\bin\Debug\Employee.dll
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\bin\Debug\Employee.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\MainFrame.exe
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\MainFrame.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\Frames.Login.resources
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\Frames.Main.resources
+C:\Users\Arthur\Desktop\TDIN\Store\MainFrame\obj\Debug\Frames.PasswordRecover.resources
