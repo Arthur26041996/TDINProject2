@@ -1,12 +1,4 @@
 ﻿using Shared;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace StoreClient
@@ -29,6 +21,7 @@ namespace StoreClient
             this.label16.Text = book.Volume.ToString();
             this.label17.Text = book.Edition.ToString();
             this.label18.Text = (remBook.getBookStock(book.Id)).ToString();
+            this.label20.Text = book.Price.ToString();
         }
     }
 }

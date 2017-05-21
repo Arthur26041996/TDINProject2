@@ -38,5 +38,11 @@ namespace StoreClient
             this.Enabled = false;
             (new PasswordRecover(this)).Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Enabled = false;
+            (new NewBook(this)).Show();
+        }
     }
 }

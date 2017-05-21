@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreClient", "StoreClient\StoreClient.csproj", "{DB2AF8BE-ADE3-46B6-903F-9494DF095E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse", "Warehouse\Warehouse.csproj", "{76FB25E6-0D50-423B-BB84-4848673D1D63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseClient", "Warehouse\WarehouseClient.csproj", "{76FB25E6-0D50-423B-BB84-4848673D1D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseServer", "WarehouseServer\WarehouseServer.csproj", "{A84F8B91-7260-49FF-909C-F2351BD756DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{76FB25E6-0D50-423B-BB84-4848673D1D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76FB25E6-0D50-423B-BB84-4848673D1D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76FB25E6-0D50-423B-BB84-4848673D1D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84F8B91-7260-49FF-909C-F2351BD756DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84F8B91-7260-49FF-909C-F2351BD756DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84F8B91-7260-49FF-909C-F2351BD756DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84F8B91-7260-49FF-909C-F2351BD756DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

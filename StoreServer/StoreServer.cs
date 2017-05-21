@@ -144,47 +144,56 @@ namespace StoreServer
         public void addSomeExamples()
         {
             book.Add(new Book(0, "Dom Quixote", "Miguel de Cervantes",
-                                "Francisco de Robles", "1605", "Novel", 1, 1), 10);
+                                "Francisco de Robles", "1605", "Novel", 1, 1, 30.56), 10);
 
             book.Add(new Book(1, "Ulysses", "James Joyces",
-                                "Sylvia Beach", "1922", "Novel", 1, 1), 10);
+                                "Sylvia Beach", "1922", "Novel", 1, 1, 42.15), 10);
 
             book.Add(new Book(2, "War and Peace", "Leo Tolstoy",
-                                "The Russian Messenger", "1869", "Novel", 1, 1), 10);
+                                "The Russian Messenger", "1869", "Novel", 1, 1, 25.95), 10);
 
             book.Add(new Book(3, "The Great Gatsby", "F. Scott Fitzgerald",
-                                "Charles Scribner's Sons", "1925", "Novel", 1, 1), 10);
+                                "Charles Scribner's Sons", "1925", "Novel", 1, 1, 12.85), 10);
 
             book.Add(new Book(4, "Pride and Prejudice", "Jane Austen",
-                                "T Egerton, Whitehall", "1813", "Novel", 1, 1), 10);
+                                "T Egerton, Whitehall", "1813", "Novel", 1, 1, 14.73), 10);
 
             book.Add(new Book(5, "The Hunger Games, #1", "Suzanne Collins",
-                                "Scholastic Press", "2008", "Adventure", 1, 1), 10);
+                                "Scholastic Press", "2008", "Adventure", 1, 1, 64.22), 10);
 
             book.Add(new Book(6, "Harry Potter, #1", "J.K. Rowling",
-                                "Arthur A. Levine Books", "1997", "Fantasy", 1, 1), 10);
+                                "Arthur A. Levine Books", "1997", "Fantasy", 1, 1, 42.56), 10);
 
             book.Add(new Book(7, "Twilight", "Stephenie Meyer",
-                                "Litter, Brown and Company", "2005", "Fantasy", 1, 1), 10);
+                                "Litter, Brown and Company", "2005", "Fantasy", 1, 1, 76.36), 10);
 
             book.Add(new Book(8, "The Hobbit", "J.R.R. Tolkien",
-                                "George Allen & Unwin", "1937", "Fantasy", 1, 1), 10);
+                                "George Allen & Unwin", "1937", "Fantasy", 1, 1, 48.97), 10);
 
             book.Add(new Book(9, "Divergent", "Veronica Roth",
-                                "Katherine Tegen Books", "2011", "Science fiction", 1, 1), 10);
+                                "Katherine Tegen Books", "2011", "Science fiction", 1, 1, 66.39), 10);
         }
 
-        public void addBook(Book key, int value)
+        public bool addBook(Book key, int value)
         {
             if (book.ContainsKey(key))
             {
                 if (value > book[key])
+                {
                     book[key] = value;
+                    return true;
+                }
                 else
+                {
                     Console.WriteLine("Book already exists and quantity is lower then the current value in stock");
+                    return false;
+                }
             }
             else
+            {
                 book.Add(key, value);
+                return true;
+            }
         }
 
         public Book getBook(int id)

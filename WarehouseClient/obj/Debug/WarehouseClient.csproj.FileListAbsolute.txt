@@ -1,0 +1,9 @@
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\bin\Debug\Warehouse.exe.config
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\bin\Debug\Warehouse.exe
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\bin\Debug\Warehouse.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\WarehouseClient.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\Warehouse.Main.resources
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\Warehouse.Properties.Resources.resources
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\WarehouseClient.csproj.GenerateResource.Cache
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\Warehouse.exe
+C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\Warehouse.pdb

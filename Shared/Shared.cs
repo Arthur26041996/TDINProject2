@@ -17,12 +17,17 @@ namespace Shared
 
     public interface IRemBook
     {
-        void addBook(Book key, int value);
+        bool addBook(Book key, int value);
         Book getBook(int id);
         Book getBookByTitle(string title);
         int getBookStock(int id);
         List<Book> getAllBooks();
         void updateBookStock(Book key, int value);
+    }
+
+    public interface IRemObjectWH
+    {
+
     }
 
     public class GetRemote
