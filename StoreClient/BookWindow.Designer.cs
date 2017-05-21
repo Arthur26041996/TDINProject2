@@ -48,6 +48,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -149,7 +151,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(95, 438);
+            this.button1.Location = new System.Drawing.Point(95, 493);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(217, 48);
             this.button1.TabIndex = 9;
@@ -158,7 +160,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(359, 438);
+            this.button2.Location = new System.Drawing.Point(359, 493);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(217, 48);
             this.button2.TabIndex = 10;
@@ -262,6 +264,24 @@
             this.label10.TabIndex = 11;
             this.label10.Text = "id";
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(16, 420);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(94, 22);
+            this.label19.TabIndex = 20;
+            this.label19.Text = "PRICE ($)";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(355, 420);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(51, 22);
+            this.label20.TabIndex = 21;
+            this.label20.Text = "price";
+            // 
             // BookWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
@@ -269,7 +289,9 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(692, 498);
+            this.ClientSize = new System.Drawing.Size(692, 553);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label15);
@@ -293,8 +315,8 @@
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(900, 545);
-            this.MinimumSize = new System.Drawing.Size(710, 545);
+            this.MaximumSize = new System.Drawing.Size(900, 600);
+            this.MinimumSize = new System.Drawing.Size(710, 600);
             this.Name = "BookWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Book";
@@ -325,5 +347,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
     }
 }

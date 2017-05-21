@@ -2,7 +2,6 @@
 using Shared;
 using System.Collections.Generic;
 using System.Runtime.Remoting;
-using System.Collections.ObjectModel;
 
 namespace StoreServer
 {

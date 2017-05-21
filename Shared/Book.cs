@@ -14,9 +14,10 @@ namespace Shared
         string genre;
         int volume;
         int edition;
+        double price;
 
         public Book(int id, string title, string author, string publisher, string pubDate,
-                  string genre, int volume, int edition)
+                  string genre, int volume, int edition, double price)
         {
             this.id = id;
             this.title = title;
@@ -26,6 +27,7 @@ namespace Shared
             this.genre = genre;
             this.volume = volume;
             this.edition = edition;
+            this.price = price;
         }
 
         public int Id
@@ -75,6 +77,12 @@ namespace Shared
             get { return edition; }
             set { edition = value; }
         }
+
+        public double Price
+        {
+            get { return price; }
+            set { price = value; }
+        }
     }
 
     class BookList
@@ -89,40 +97,40 @@ namespace Shared
         public void addSomeExamples()
         {
             book.Add(new Book(0, "Dom Quixote", "Miguel de Cervantes",
-                                "Francisco de Robles", "1605", "Novel", 1, 1));
+                                "Francisco de Robles", "1605", "Novel", 1, 1, 35.18));
 
             book.Add(new Book(1, "Ulysses", "James Joyces",
-                                "Sylvia Beach", "1922", "Novel", 1, 1));
+                                "Sylvia Beach", "1922", "Novel", 1, 1, 45.65));
 
             book.Add(new Book(2, "War and Peace", "Leo Tolstoy", 
-                                "The Russian Messenger", "1869", "Novel", 1, 1));
+                                "The Russian Messenger", "1869", "Novel", 1, 1, 29.99));
 
             book.Add(new Book(3, "The Great Gatsby", "F. Scott Fitzgerald",
-                                "Charles Scribner's Sons", "1925", "Novel", 1, 1));
+                                "Charles Scribner's Sons", "1925", "Novel", 1, 1, 15.00));
 
             book.Add(new Book(4, "Pride and Prejudice", "Jane Austen",
-                                "T Egerton, Whitehall", "1813", "Novel", 1, 1));
+                                "T Egerton, Whitehall", "1813", "Novel", 1, 1, 40.35));
 
             book.Add(new Book(5, "The Hunger Games, #1", "Suzanne Collins",
-                                "Scholastic Press", "2008", "Adventure", 1, 1));
+                                "Scholastic Press", "2008", "Adventure", 1, 1, 22.18));
 
             book.Add(new Book(6, "Harry Potter, #1", "J.K. Rowling",
-                                "Arthur A. Levine Books", "1997", "Fantasy", 1, 1));
+                                "Arthur A. Levine Books", "1997", "Fantasy", 1, 1, 27.75));
 
             book.Add(new Book(7, "Twilight", "Stephenie Meyer",
-                                "Litter, Brown and Company", "2005", "Fantasy", 1, 1));
+                                "Litter, Brown and Company", "2005", "Fantasy", 1, 1, 9.99));
 
             book.Add(new Book(8, "The Hobbit", "J.R.R. Tolkien",
-                                "George Allen & Unwin", "1937", "Fantasy", 1, 1));
+                                "George Allen & Unwin", "1937", "Fantasy", 1, 1, 18.78));
 
             book.Add(new Book(9, "Divergent", "Veronica Roth",
-                                "Katherine Tegen Books", "2011", "Science fiction", 1, 1));
+                                "Katherine Tegen Books", "2011", "Science fiction", 1, 1, 12.14));
         }
 
         public void addBook(int id, string title, string author, string publisher,
-                            string pubDate, string genre, int volume, int edition)
+                            string pubDate, string genre, int volume, int edition, double price)
         {
-            book.Add(new Book(id, title, author, publisher, pubDate, genre, volume, edition));
+            book.Add(new Book(id, title, author, publisher, pubDate, genre, volume, edition, price));
         }
 
         public bool removeBook(int id)
