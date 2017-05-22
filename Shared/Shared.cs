@@ -12,6 +12,7 @@ namespace Shared
         void updateEmployee(string name, string age, string phone, string email, string address, string username);
         bool changePassword(string username, string newPassword);
         bool Login(string username, string password);
+        void Logout(string username);
         Employee getEmployee(string username);
     }
 
@@ -23,6 +24,10 @@ namespace Shared
         int getBookStock(int id);
         List<Book> getAllBooks();
         void updateBookStock(Book key, int value);
+        int orderBook(Book bk, int quantity);
+        Order getOrder(int orderId);
+        int[] getOrdersId();
+        List<Order> getAllOrders();
     }
 
     public interface IRemObjectWH

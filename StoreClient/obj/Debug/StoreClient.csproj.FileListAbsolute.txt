@@ -28,3 +28,5 @@ C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\bin\Debug\Shared.dll
 C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\bin\Debug\Shared.pdb
 C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.BookWindow.resources
 C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.Search.resources
+C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.NewBook.resources
+C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.Orders.resources

@@ -6,22 +6,31 @@ namespace StoreClient
     public partial class BookWindow : Form
     {
         IRemBook remBook;
+        Book bk;
 
         public BookWindow(Book book)
         {
             remBook = (IRemBook)GetRemote.New(typeof(IRemBook));
+            bk = book;
 
             InitializeComponent();
-            this.label10.Text = book.Id.ToString();
-            this.label11.Text = book.Title;
-            this.label12.Text = book.Author;
-            this.label13.Text = book.Publisher;
-            this.label14.Text = book.PubDate;
-            this.label15.Text = book.Genre;
-            this.label16.Text = book.Volume.ToString();
-            this.label17.Text = book.Edition.ToString();
-            this.label18.Text = (remBook.getBookStock(book.Id)).ToString();
-            this.label20.Text = book.Price.ToString();
+            this.label10.Text = bk.id.ToString();
+            this.label11.Text = bk.title;
+            this.label12.Text = bk.author;
+            this.label13.Text = bk.publisher;
+            this.label14.Text = bk.pubDate;
+            this.label15.Text = bk.genre;
+            this.label16.Text = bk.volume.ToString();
+            this.label17.Text = bk.edition.ToString();
+            this.label18.Text = (remBook.getBookStock(bk.id)).ToString();
+            this.label20.Text = bk.price.ToString();
+            
+        }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            int id = remBook.orderBook(bk, 10);
+            MessageBox.Show("Book " + bk.id + " ordered!\nOrder ID: " + id.ToString(), "Order", MessageBoxButtons.OK, MessageBoxIcon.None);
         }
     }
 }

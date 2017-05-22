@@ -272,6 +272,9 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(607, 555);
+            this.MinimumSize = new System.Drawing.Size(607, 555);
             this.Name = "NewBook";
             this.Text = "NewBook";
             this.ResumeLayout(false);
