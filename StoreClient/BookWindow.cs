@@ -32,5 +32,10 @@ namespace StoreClient
             int id = remBook.orderBook(bk, 10);
             MessageBox.Show("Book " + bk.id + " ordered!\nOrder ID: " + id.ToString(), "Order", MessageBoxButtons.OK, MessageBoxIcon.None);
         }
+
+        private void button2_Click(object sender, System.EventArgs e)
+        {
+            (new NewSale(this)).Show();
+        }
     }
 }

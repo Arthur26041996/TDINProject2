@@ -34,6 +34,7 @@
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RequestDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ReplyDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,6 +55,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(858, 451);
             this.dataGridView1.TabIndex = 0;
             // 
@@ -94,16 +96,27 @@
             this.ReplyDate.Name = "ReplyDate";
             this.ReplyDate.ReadOnly = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(327, 485);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(186, 56);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Refresh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(882, 473);
+            this.ClientSize = new System.Drawing.Size(882, 553);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(900, 520);
-            this.MinimumSize = new System.Drawing.Size(750, 520);
+            this.MaximumSize = new System.Drawing.Size(900, 600);
+            this.MinimumSize = new System.Drawing.Size(750, 600);
             this.Name = "Orders";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orders";
@@ -120,5 +133,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
         private System.Windows.Forms.DataGridViewTextBoxColumn RequestDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn ReplyDate;
+        private System.Windows.Forms.Button button1;
     }
 }

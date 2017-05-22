@@ -28,11 +28,20 @@ namespace Shared
         Order getOrder(int orderId);
         int[] getOrdersId();
         List<Order> getAllOrders();
+        void sellBook(Book book, Client client, int quantity);
+        int[] getSalesId();
+        Sale getSale(int saleID);
     }
 
-    public interface IRemObjectWH
+    public interface IRemWH
     {
+        Order getOrdes(string queueName);
+    }
 
+    public interface IRemClient
+    {
+        void addClient(long cpf, string name, int phone, string email, string address);
+        Client getClient(long cpf);
     }
 
     public class GetRemote

@@ -9,7 +9,7 @@ namespace Shared
     [Serializable]
     public class Client
     {
-        public int cpf { get; set; }
+        public long cpf { get; set; }
         public string Name { get; set; }
         public int phone { get; set; }
         public string email { get; set; }

@@ -53,5 +53,20 @@ namespace StoreClient
         {
             (new Orders(this)).Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            (new Sales(this)).Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            (new SerachClient(this)).Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            (new NewClient(this)).Show();
+        }
     }
 }
