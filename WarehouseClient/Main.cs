@@ -1,20 +1,25 @@
-﻿using System;
+﻿using Shared;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Warehouse
 {
     public partial class Main : Form
     {
+        IRemWH remWh;
+
         public Main()
         {
             InitializeComponent();
+            List<Order> orders;
+            remWh = (IRemWH)GetRemote.New(typeof(IRemWH));
+            string queueName = @".\Private$\TDIN";
+            orders = remWh.getOrdes(queueName);
+
+            foreach (Order od in orders)
+            {
+                this.dataGridView1.Rows.Add(od.id, od.book.title, od.quantity, od.requestDate);
+            }
         }
     }
 }

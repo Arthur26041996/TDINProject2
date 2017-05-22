@@ -7,3 +7,14 @@ C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\Warehouse.Properties.Reso
 C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\WarehouseClient.csproj.GenerateResource.Cache
 C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\Warehouse.exe
 C:\Users\Arthur\Desktop\TDIN\Store\Warehouse\obj\Debug\Warehouse.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\bin\Debug\Shared.dll
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\bin\Debug\Shared.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\obj\Debug\WarehouseClient.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\obj\Debug\Warehouse.Main.resources
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\obj\Debug\WarehouseClient.csproj.GenerateResource.Cache
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\bin\Debug\WarehouseClient.exe.config
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\bin\Debug\WarehouseClient.exe
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\bin\Debug\WarehouseClient.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\obj\Debug\WarehouseClient.Properties.Resources.resources
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\obj\Debug\WarehouseClient.exe
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseClient\obj\Debug\WarehouseClient.pdb
