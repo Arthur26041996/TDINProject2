@@ -5,8 +5,9 @@ namespace StoreClient
 {
     public partial class BookWindow : Form
     {
-        IRemBook remBook;
-        Book bk;
+        public static IRemBook remBook;
+        public static Book bk;
+        public static Label lbl;
 
         public BookWindow(Book book)
         {
@@ -22,10 +23,10 @@ namespace StoreClient
             this.label15.Text = bk.genre;
             this.label16.Text = bk.volume.ToString();
             this.label17.Text = bk.edition.ToString();
-            this.label18.Text = (remBook.getBookStock(bk.id)).ToString();
+            this.label18.Text = (remBook.getBookStock(bk)).ToString();
             this.label20.Text = bk.price.ToString();
-            
         }
+        
 
         private void button1_Click(object sender, System.EventArgs e)
         {
@@ -35,7 +36,7 @@ namespace StoreClient
 
         private void button2_Click(object sender, System.EventArgs e)
         {
-            (new NewSale(this)).Show();
+            (new NewSale(this, bk)).Show();
         }
     }
 }

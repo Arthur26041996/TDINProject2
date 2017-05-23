@@ -35,3 +35,4 @@ C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.NewSale.res
 C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.ClientWindow.resources
 C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.SerachClient.resources
 C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.NewClient.resources
+C:\Users\Arthur\Desktop\TDIN\Store\StoreClient\obj\Debug\StoreClient.Receipt.resources

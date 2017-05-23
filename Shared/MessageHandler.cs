@@ -99,5 +99,20 @@ namespace Shared
             }
             return order;
         }
+
+        public int countOrdersMessages(string queueName)
+        {
+            if (!MessageQueue.Exists(queueName))
+                return -1;
+
+            MessageQueue msgQueue = new MessageQueue(queueName);
+
+            int count = 0;
+            var enumerator = msgQueue.GetMessageEnumerator2();
+            while (enumerator.MoveNext())
+                count++;
+
+            return count;
+        }
     }
 }

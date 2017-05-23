@@ -21,21 +21,23 @@ namespace Shared
         bool addBook(Book key, int value);
         Book getBook(int id);
         Book getBookByTitle(string title);
-        int getBookStock(int id);
+        int getBookStock(Book book);
         List<Book> getAllBooks();
         void updateBookStock(Book key, int value);
         int orderBook(Book bk, int quantity);
         Order getOrder(int orderId);
+        void updateOrderStatus(Order od, string newStatus);
         int[] getOrdersId();
         List<Order> getAllOrders();
-        void sellBook(Book book, Client client, int quantity);
+        Sale sellBook(Book book, Client client, int quantity);
         int[] getSalesId();
         Sale getSale(int saleID);
     }
 
     public interface IRemWH
     {
-        Order getOrdes(string queueName);
+        Order getOrders(string queueName);
+        int countOrdersInQueue(string queueName);
     }
 
     public interface IRemClient
