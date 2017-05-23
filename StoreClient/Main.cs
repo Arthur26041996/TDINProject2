@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shared;
+using System;
 using System.Windows.Forms;
 
 namespace StoreClient
@@ -6,16 +7,21 @@ namespace StoreClient
     public partial class Main : Form
     {
         Form callback;
+        IRemObject remObject;
+        string name;
 
         public Main(Form callback, string name)
         {
             InitializeComponent();
             this.callback = callback;
+            this.name = name;
             this.label2.Text = "Welcome, " + name;
+            this.remObject = (IRemObject)GetRemote.New(typeof(IRemObject));
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
+            remObject.Logout(name);
             callback.Show();
             callback.Activate();
         }
@@ -29,14 +35,38 @@ namespace StoreClient
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Close();
-            callback.Show();
-            callback.Activate();
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Enabled = false;
             (new PasswordRecover(this)).Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Enabled = false;
+            (new NewBook(this)).Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            (new Orders(this)).Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            (new Sales(this)).Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            (new SerachClient(this)).Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            (new NewClient(this)).Show();
         }
     }
 }

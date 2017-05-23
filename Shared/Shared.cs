@@ -12,17 +12,38 @@ namespace Shared
         void updateEmployee(string name, string age, string phone, string email, string address, string username);
         bool changePassword(string username, string newPassword);
         bool Login(string username, string password);
+        void Logout(string username);
         Employee getEmployee(string username);
     }
 
     public interface IRemBook
     {
-        void addBook(Book key, int value);
+        bool addBook(Book key, int value);
         Book getBook(int id);
         Book getBookByTitle(string title);
-        int getBookStock(int id);
+        int getBookStock(Book book);
         List<Book> getAllBooks();
         void updateBookStock(Book key, int value);
+        int orderBook(Book bk, int quantity);
+        Order getOrder(int orderId);
+        void updateOrderStatus(Order od, string newStatus);
+        int[] getOrdersId();
+        List<Order> getAllOrders();
+        Sale sellBook(Book book, Client client, int quantity);
+        int[] getSalesId();
+        Sale getSale(int saleID);
+    }
+
+    public interface IRemWH
+    {
+        Order getOrders(string queueName);
+        int countOrdersInQueue(string queueName);
+    }
+
+    public interface IRemClient
+    {
+        void addClient(long cpf, string name, int phone, string email, string address);
+        Client getClient(long cpf);
     }
 
     public class GetRemote

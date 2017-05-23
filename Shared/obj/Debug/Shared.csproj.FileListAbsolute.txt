@@ -5,6 +5,6 @@ C:\Users\Arthur\Desktop\TDIN\Store\Employee\obj\Debug\Shared.dll
 C:\Users\Arthur\Desktop\TDIN\Store\Employee\obj\Debug\Shared.pdb
 C:\Users\Arthur\Desktop\TDIN\Store\Shared\bin\Debug\Shared.dll
 C:\Users\Arthur\Desktop\TDIN\Store\Shared\bin\Debug\Shared.pdb
-C:\Users\Arthur\Desktop\TDIN\Store\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
 C:\Users\Arthur\Desktop\TDIN\Store\Shared\obj\Debug\Shared.dll
 C:\Users\Arthur\Desktop\TDIN\Store\Shared\obj\Debug\Shared.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache

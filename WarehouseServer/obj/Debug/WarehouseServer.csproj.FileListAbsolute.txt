@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\bin\Debug\WarehouseServer.exe.config
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\bin\Debug\WarehouseServer.exe
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\bin\Debug\WarehouseServer.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\bin\Debug\Shared.dll
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\bin\Debug\Shared.pdb
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\obj\Debug\WarehouseServer.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\obj\Debug\WarehouseServer.exe
+C:\Users\Arthur\Desktop\TDIN\Store\WarehouseServer\obj\Debug\WarehouseServer.pdb

@@ -1,5 +1,6 @@
 ﻿using Shared;
 using System;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace StoreClient
@@ -18,7 +19,14 @@ namespace StoreClient
             this.radioButton1.Checked = true;
             this.textBox1.Enabled = true;
             this.textBox2.Enabled = false;
-            this.FormBorderStyle = FormBorderStyle.None;
+            this.textBox1.Focus();
+            this.textBox1.KeyPress += TextBox1_KeyPress;
+        }
+
+        private void TextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                e.Handled = true;
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
