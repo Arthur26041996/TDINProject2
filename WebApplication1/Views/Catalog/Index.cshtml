@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-xs-6 col-md-6">
+
+        <form id="bookSearch" method="get" action="@Url.Action("Details", "Catalog")">
+            <h3 style="margin-top:5%; margin-bottom:5%;">Search for a book</h3>
+            <p>
+                <label for="Order ID">Book Title:</label>
+                <input type="text" name="title" />
+            </p>
+            <input type="submit" id="bookSearchSub" value="Search" />
+        </form>
+    </div>
+</div>
